@@ -44,7 +44,6 @@ public class PrintVowelsAndNonVowels {
       }
     }
 
-
     scan.close();
     System.out.println("Number of vowels: " + vowels);
     System.out.println("Number of vowels that are the letter a: " + a);
