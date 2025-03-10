@@ -5,7 +5,7 @@ public class PrintVowelsAndNonVowels {
   public static void main(String[] args) throws IOException {
 
     String userMessage;
-    int vowels = 0;
+    int vowelsCounter = 0;
     int spaces = 0;
     int a = 0;
     int e = 0;
@@ -21,23 +21,23 @@ public class PrintVowelsAndNonVowels {
     for (int character = 0; character < userMessage.length(); character++ ){
       if (userMessage.charAt(character)=='a'){
         a++;
-        vowels++;
+        vowelsCounter++;
       }
       if (userMessage.charAt(character)=='e'){
         e++;
-        vowels++;
+        vowelsCounter++;
       }
       if (userMessage.charAt(character)=='i'){
         i++;
-        vowels++;
+        vowelsCounter++;
       }
       if(userMessage.charAt(character)=='o'){
         o++;
-        vowels++;
+        vowelsCounter++;
       }
       if(userMessage.charAt(character)=='u'){
         u++;
-        vowels++;
+        vowelsCounter++;
       }
       if (userMessage.charAt(character) == ' '){
         spaces++;
@@ -45,13 +45,13 @@ public class PrintVowelsAndNonVowels {
     }
 
     scan.close();
-    System.out.println("Number of vowels: " + vowels);
+    System.out.println("Number of vowels: " + vowelsCounter);
     System.out.println("Number of vowels that are the letter a: " + a);
     System.out.println("Number of vowels that are the letter e: " + e);
     System.out.println("Number of vowels that are the letter i: " + i);
     System.out.println("Number of vowels that are the letter o: " + o);
     System.out.println("Number of vowels that are the letter u: " + u);
-    System.err.println("Number of nonvowels: " + ((userMessage.length() - vowels ) - spaces));
+    System.err.println("Number of nonvowels: " + ((userMessage.length() - vowelsCounter ) - spaces));
 
   }
 }
