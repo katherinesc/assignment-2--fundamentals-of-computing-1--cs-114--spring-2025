@@ -1,26 +1,26 @@
 public class CountFlips {
   public static void main(String[] args) {
     int MAX = 100;
-    int heads = 0;
-    int tails = 0;
-    int totalCoinflips = 0;
+    int headsCounter = 0;
+    int tailsCounter = 0;
+    int totalCoinFlips = 0;
 
     Coin myCoin = new Coin();
 
     myCoin.flip();
 
-    while (totalCoinflips < MAX){
+    while (totalCoinFlips < MAX){
       if (myCoin.isHeads()) {
-        heads ++;
-        totalCoinflips ++;
+        headsCounter ++;
+        totalCoinFlips ++;
         myCoin.flip();
       } else {
-        tails ++;
-        totalCoinflips ++;
+        tailsCounter ++;
+        totalCoinFlips ++;
         myCoin.flip();
     }
     }
-    System.out.println("Heads: " + heads);
-    System.out.println("Tails: " + tails);
+    System.out.println("Heads: " + headsCounter);
+    System.out.println("Tails: " + tailsCounter);
   }
   }
