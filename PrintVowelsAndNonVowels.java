@@ -6,7 +6,6 @@ public class PrintVowelsAndNonVowels {
 
     String userMessage;
     int vowels = 0;
-    int nonvowels = 0;
     int spaces = 0;
     int a = 0;
     int e = 0;
@@ -39,69 +38,6 @@ public class PrintVowelsAndNonVowels {
       if(userMessage.charAt(character)=='u'){
         u++;
         vowels++;
-      }
-      if(userMessage.charAt(character) == 'b'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'c'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'd'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'f'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'g'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'h'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'j'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'k'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'l'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'm'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'n'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'p'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'q'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'r'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 's'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 't'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'v'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'w'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'x'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'y'){
-        nonvowels++;
-      }
-      if(userMessage.charAt(character) == 'z'){
-        nonvowels++;
       }
       if (userMessage.charAt(character) == ' '){
         spaces++;
