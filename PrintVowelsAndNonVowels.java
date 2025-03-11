@@ -51,7 +51,8 @@ public class PrintVowelsAndNonVowels {
     System.out.println("Number of vowels that are the letter i: " + i);
     System.out.println("Number of vowels that are the letter o: " + o);
     System.out.println("Number of vowels that are the letter u: " + u);
-    System.err.println("Number of nonvowels: " + ((userMessage.length() - vowelsCounter ) - spacesCounter));
+    System.err.println("Number of nonvowels: " + ((userMessage.length() - vowelsCounter )
+     - spacesCounter));
 
   }
 }
