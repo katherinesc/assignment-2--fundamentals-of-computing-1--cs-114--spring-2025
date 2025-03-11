@@ -1,61 +1,61 @@
 public class TheTwelveDaysOfChristmas {
   public static void main(String[] args) {
 
-    String days = " ";
+    String twelveDays = " ";
 
     for (int verses = 1; verses <= 12; verses++ ){
 
       switch(verses){
         case 12:
-        days = "12th";
+        twelveDays = "12th";
         break;
 
         case 11:
-        days = "11th";
+        twelveDays = "11th";
         break;
 
         case 10:
-        days = "10th";
+        twelveDays = "10th";
         break;
 
         case 9:
-        days = "9th";
+        twelveDays = "9th";
         break;
 
         case 8:
-        days = "8th";
+        twelveDays = "8th";
         break;
 
         case 7:
-        days = "7th";
+        twelveDays = "7th";
         break;
 
         case 6:
-        days = "6th";
+        twelveDays = "6th";
         break;
 
         case 5:
-        days = "5th";
+        twelveDays = "5th";
         break;
 
         case 4:
-        days = "4th";
+        twelveDays = "4th";
         break;
 
         case 3:
-        days = "3rd";
+        twelveDays = "3rd";
         break;
 
         case 2:
-        days = "2nd";
+        twelveDays = "2nd";
         break;
 
         case 1:
-        days = "1st";
+        twelveDays = "1st";
 
       }
       System.out.println();
-      System.out.println("On the " + days + " day of Christmas my true love gave to me");
+      System.out.println("On the " + twelveDays + " day of Christmas my true love gave to me");
 
       switch (verses){
         case 12:
