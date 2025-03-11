@@ -23,7 +23,6 @@ public class OneHundredBottlesOfBeer {
       System.out.println();
     }
 
-
     scan.close();
   }
 }

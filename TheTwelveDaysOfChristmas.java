@@ -83,9 +83,6 @@ public class TheTwelveDaysOfChristmas {
         case 1:
         System.out.println("A partridge in a pear tree.");
       }
-
     }
-
-
     }
   }
