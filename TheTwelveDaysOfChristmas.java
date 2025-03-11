@@ -3,9 +3,9 @@ public class TheTwelveDaysOfChristmas {
 
     String twelveDays = " ";
 
-    for (int verses = 1; verses <= 12; verses++ ){
+    for (int versesOfSong = 1; versesOfSong <= 12; versesOfSong++ ){
 
-      switch(verses){
+      switch(versesOfSong){
         case 12:
         twelveDays = "12th";
         break;
@@ -57,7 +57,7 @@ public class TheTwelveDaysOfChristmas {
       System.out.println();
       System.out.println("On the " + twelveDays + " day of Christmas my true love gave to me");
 
-      switch (verses){
+      switch (versesOfSong){
         case 12:
         System.out.println("Twelve drummers drumming,");
         case 11:
