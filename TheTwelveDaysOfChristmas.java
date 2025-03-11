@@ -1,7 +1,7 @@
 public class TheTwelveDaysOfChristmas {
   public static void main(String[] args) {
 
-    String days = "0";
+    String days = " ";
 
     for (int verses = 1; verses <= 12; verses++ ){
 
